@@ -34,6 +34,7 @@ function NumberSumUp(props) {
         axios.request(config)
             .then((response) => {
                 console.log(JSON.stringify(response.data));
+                setResult(response.data.result);
             })
             .catch((error) => {
                 console.log(error);
