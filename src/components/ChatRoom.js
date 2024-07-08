@@ -14,6 +14,7 @@ function ChatRoom(props) {
 
         axios.request(config)
             .then((response) => {
+                console.log("print here")
                 console.log(JSON.stringify(response.data));
                 setChatrooms(response.data)
             })
