@@ -30,6 +30,7 @@ function TopBar() {
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/sumupnum">SupUpNum</Nav.Link>
+            <Nav.Link href="/login">Login</Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control
